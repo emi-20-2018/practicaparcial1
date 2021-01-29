@@ -25,5 +25,6 @@ namespace p.parcial1.Models
         public string email { get; set; }
         [Display(Name ="Cumpleaños")]
         public Nullable<System.DateTime> birthdate { get; set; }
+        public string Name { get; set; }
     }
 }
